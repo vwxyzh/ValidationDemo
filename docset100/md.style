@@ -4,6 +4,7 @@
       "tagNames": [ "a" ],
       "behavior": "Warning",
       "messageFormatter": "<a> is not allowed.",
+      "customValidatorContractName": "require_id_attribute",
       "openingTagOnly": true
     }
   ]
