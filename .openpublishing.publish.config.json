@@ -15,12 +15,19 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "op",
+      "customized_template_paths": [ "validations/metadata" ]
     }
   ],
-  "notification_subscribers": [],
-  "branches_to_filter": [],
+  "notification_subscribers": [ ],
+  "branches_to_filter": [ ],
   "skip_source_output_uploading": false,
   "dependent_repositories": [
+    {
+      "path_to_root": "validations",
+      "url": "https://github.com/vwxyzh/docfxValidationPlugins",
+      "branch": "master",
+      "branch_mapping": { }
+    }
   ]
 }
