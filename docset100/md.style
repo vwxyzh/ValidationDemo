@@ -1,0 +1,10 @@
+{
+  "tagRules": [
+    {
+      "tagNames": [ "a" ],
+      "behavior": "Warning",
+      "messageFormatter": "<a> is not allowed.",
+      "openingTagOnly": false
+    }
+  ]
+}
