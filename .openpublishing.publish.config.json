@@ -16,7 +16,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "op",
-      "customized_template_paths": [ "validations/mdHeading" ]
+      "customized_template_paths": [ "obj/validations/mdHeading" ]
     }
   ],
   "notification_subscribers": [ ],
@@ -24,7 +24,7 @@
   "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
-      "path_to_root": "validations",
+      "path_to_root": "obj/validations",
       "url": "https://github.com/vwxyzh/docfxValidationPlugins",
       "branch": "master",
       "branch_mapping": { }
